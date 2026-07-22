@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Fandom wiki Scott Pilgrim :3</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!--  TINTE  -->
+    <input type="radio" name="hair-color" id="hair-pink" checked>
+    <input type="radio" name="hair-color" id="hair-blue">
+    <input type="radio" name="hair-color" id="hair-green">
+
+    <!-- NAVBAR  -->
+    <nav class="navbar navbar-expand mb-4 py-3 navbar-custom">
+        <div class="container justify-content-center">
+            <ul class="navbar-nav gap-4">
+                <li class="nav-item">
+                    <a class="nav-link nav-alt" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-alt" href="galeria.html">Galería</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-alt active-alt" href="contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- MARQUEE -->
+    <div class="container-fluid px-4">
+        <div class="marquee-box">
+            <marquee scrollamount="10">★ Bienvendo ★ Gracias por visitar mi página (>_<)9 ★</marquee>
+        </div>
+    </div>
+
+    <!-- CONTENEDOR PRINCIPAL -->
+    <div class="container-fluid px-4">
+        
+        <!-- HEADER INTERNO Y SELECTOR DE TINTE -->
+        <header class="alt-box">
+            <a href="index.html" class="logo-container">
+                <img src="logo.jpg" alt="Sex Bob-Omb Logo" class="logo-animated">
+                <span class="logo-text">Contacto wiki</span>
+            </a>
+
+            <!-- SELECTOR DE TINTE -->
+            <div class="ramona-controls">
+                <span>Tinte:</span>
+                <label for="hair-pink" class="color-btn btn-pink" title="Rosa"></label>
+                <label for="hair-blue" class="color-btn btn-blue" title="Azul"></label>
+                <label for="hair-green" class="color-btn btn-green" title="Verde"></label>
+            </div>
+        </header>
+
+        <!-- SECCIÓN DE CONTACTO / GUESTBOOK -->
+        <main class="container my-5" style="max-width: 700px;">
+            <section class="alt-box p-4 p-md-5">
+                
+                <div class="text-center mb-4">
+                    <h1 class="contact-main-title mb-2">★ Mandame un mensaje! ★</h1>
+                    <p class="contact-subtitle">¿Dejaste tu mensaje? </p>
+                </div>
+
+                <!-- FORMULARIO -->
+                <form>
+                    <div class="mb-3">
+                        <label for="nombre" class="form-label font-retro">Tu Nombre / Apodo:</label>
+                        <input type="text" class="form-control retro-input" id="nombre" placeholder="Ej. Maria">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="email" class="form-label font-retro">Correo Electrónico:</label>
+                        <input type="email" class="form-control retro-input" id="email" placeholder="tucorreo@gmail.com">
+                    </div>
+
+                    <div class="mb-4">
+                        <label for="mensaje" class="form-label font-retro">Mensaje:</label>
+                        <textarea class="form-control retro-input" id="mensaje" rows="4" placeholder="Escribe tu mensaje aquí..."></textarea>
+                    </div>
+
+                    <div class="text-center">
+                        <button type="submit" class="retro-submit-btn">ENVIAR MENSAJE ✉️</button>
+                    </div>
+                </form>
+
+                <!-- INFORMACIÓN ADICIONAL DE CONTACTO -->
+                <div class="mt-5 pt-4 border-top border-secondary text-center">
+                    <p class="mb-2 font-retro" style="font-size: 1.3rem;">O encuéntrame en las redes!:</p>
+                    <p class="text-info mb-1">Email: <span class="text-white">holis@gmail.com</span></p>
+                    <p class="text-info mb-0">Ubicación: <span class="text-white">Lima-Perú</span></p>
+                </div>
+
+            </section>
+        </main>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer-custom text-white mt-5">
+        <div class="container py-4">
+            <ul class="nav justify-content-center pb-3 mb-3 border-bottom border-light">
+                <li class="nav-item"><a href="index.html" class="nav-link px-2 text-white">Inicio</a></li>
+                <li class="nav-item"><a href="galeria.html" class="nav-link px-2 text-white">Galería</a></li>
+                <li class="nav-item"><a href="contacto.html" class="nav-link px-2 text-white">Contacto</a></li>
+            </ul>
+            <p class="text-center text-white mb-0 font-weight-bold" style="font-size: 1.1rem; text-shadow: 1px 1px 2px #000;">&copy; 2026 Scott Pilgrim Wiki :3</p>
+        </div>
+    </footer>
+
+</body>
+</html>
