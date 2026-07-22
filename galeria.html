@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería - Scott Pilgrim :3</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- INPUTS PARA TINTE -->
+    <input type="radio" name="hair-color" id="hair-pink" checked>
+    <input type="radio" name="hair-color" id="hair-blue">
+    <input type="radio" name="hair-color" id="hair-green">
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand mb-4 py-3 navbar-custom">
+        <div class="container justify-content-center">
+            <ul class="navbar-nav gap-4">
+                <li class="nav-item">
+                    <a class="nav-link nav-alt" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-alt active-alt" href="galeria.html">Galería</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-alt" href="contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- MARQUEE -->
+    <div class="container-fluid px-4">
+        <div class="marquee-box">
+            <marquee scrollamount="10">★ Galería de fotos ★ Scott Pilgrim Takes Off ★ (>_<)9 ★</marquee>
+        </div>
+    </div>
+
+    <!-- CONTENEDOR PRINCIPAL -->
+    <div class="container-fluid px-4">
+        
+        <!-- HEADER INTERNO CON LOGO Y SELECTOR DE TINTE -->
+        <header class="alt-box">
+            <a href="index.html" class="logo-container">
+                <img src="img/logo_2.jpg" alt="Sex Bob-Omb Logo" class="logo-animated">
+                <span class="logo-text">Film Gallery</span>
+            </a>
+
+            <!-- SELECTOR DE TINTE -->
+            <div class="ramona-controls">
+                <span>Tinte:</span>
+                <label for="hair-pink" class="color-btn btn-pink" title="Rosa"></label>
+                <label for="hair-blue" class="color-btn btn-blue" title="Azul"></label>
+                <label for="hair-green" class="color-btn btn-green" title="Verde"></label>
+            </div>
+        </header>
+
+        <!-- TÍTULO DE LA GALERÍA -->
+        <section class="text-center my-4">
+            <h1 class="dream-main-title">Galeria de fotos :D</h1>
+            <p class="dream-subtitle">(>'-'<).(. ❛ ᴗ ❛.) .(╹ڡ╹ ) . (●'◡'●)</p>
+            <div class="dream-icons-bar my-3">&#x1f319; &#x2728; &#x1f98b; &#x2661; &#x1f380; &#x2601; &#x1f337; &#x2b50;</div>
+        </section>
+
+        <!-- SECCIÓN DE PANELES (BENTO GRID) -->
+        <main class="container my-4">
+            <div class="dream-bento-grid">
+                
+                <!-- Imagen 1 -->
+                <div class="dream-bento-item">
+                    <img src="img/sp1_3.jpg" alt="Subespacio">
+                    <div class="dream-overlay">Subespacio</div>
+                </div>
+
+                <!-- Imagen 2 -->
+                <div class="dream-bento-item">
+                    <img src="img/sp_3.jpg" alt="Plea Krok">
+                    <div class="dream-overlay">Plea Krok</div>
+                </div>
+
+                <!-- Imagen 3 -->
+                <div class="dream-bento-item">
+                    <img src="img/uwuu_2.jpg" alt="Elenco completo">
+                    <div class="dream-overlay">Elenco completo</div>
+                </div>
+
+                <!-- Imagen 4 -->
+                <div class="dream-bento-item">
+                    <img src="img/ola_3.jpg" alt="Todos juntos">
+                    <div class="dream-overlay">Todos juntos</div>
+                </div>
+
+                <!-- Imagen 5 -->
+                <div class="dream-bento-item">
+                    <img src="img/lll_3.jpg" alt="Exs Malvados Pixel">
+                    <div class="dream-overlay">Exs Malvados Pixel</div>
+                </div>
+
+            </div>
+        </main>
+
+        <!-- FOOTER QUOTE -->
+        <div class="text-center my-5">
+            <p class="dream-footer-quote">&#x2728; Algunas imágenes de la serie &#x2728;</p>
+        </div>
+
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer-custom text-white mt-5">
+        <div class="container py-4">
+            <ul class="nav justify-content-center pb-3 mb-3 border-bottom border-light">
+                <li class="nav-item"><a href="index.html" class="nav-link px-2 text-white">Inicio</a></li>
+                <li class="nav-item"><a href="galeria.html" class="nav-link px-2 text-white">Galería</a></li>
+                <li class="nav-item"><a href="contacto.html" class="nav-link px-2 text-white">Contacto</a></li>
+            </ul>
+            <p class="text-center text-white mb-0 font-weight-bold" style="font-size: 1.1rem; text-shadow: 1px 1px 2px #000;">&copy; 2026 Página creada por Nicole</p>
+        </div>
+    </footer>
+
+</body>
+</html>
