@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería - Fandom wiki Scott Pilgrim :3</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- INPUTS PARA TINTE -->
+    <input type="radio" name="hair-color" id="hair-pink" checked>
+    <input type="radio" name="hair-color" id="hair-blue">
+    <input type="radio" name="hair-color" id="hair-green">
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand mb-4 py-3 navbar-custom">
+        <div class="container justify-content-center">
+            <ul class="navbar-nav gap-4">
+                <li class="nav-item">
+                    <a class="nav-link nav-alt" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-alt active-alt" href="galeria.html">Galería</a>
+                </li>
+                <li class="nav-item">
+    <a class="nav-link nav-alt" href="contacto.html">Contacto</a>
+</li>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- MARQUEE -->
+    <div class="container-fluid px-4">
+        <div class="marquee-box">
+            <marquee scrollamount="10">★ Bienvenido ★ Gracias por visitar mi página  🌙✨ ★</marquee>
+        </div>
+    </div>
+
+    <!-- CONTENEDOR PRINCIPAL -->
+    <div class="container-fluid px-4">
+        
+        <!-- HEADER INTERNO  Y SELECTOR DE TINTE -->
+        <header class="alt-box">
+            <a href="index.html" class="logo-container">
+                <img src="logo.jpg" alt="Sex Bob-Omb Logo" class="logo-animated">
+                <span class="logo-text">Galería wiki</span>
+            </a>
+
+            <!-- SELECTOR DE TINTE -->
+            <div class="ramona-controls">
+                <span>Tinte:</span>
+                <label for="hair-pink" class="color-btn btn-pink" title="Rosa"></label>
+                <label for="hair-blue" class="color-btn btn-blue" title="Azul"></label>
+                <label for="hair-green" class="color-btn btn-green" title="Verde"></label>
+            </div>
+        </header>
+
+        <!-- SECCIÓN ESTILO MODELO BENTO -->
+        <main class="container-fluid px-0 my-5">
+            <section class="alt-box p-4 p-md-5 text-center dream-gallery-section">
+                
+                <h1 class="dream-main-title mb-2">Galeria de fotos :D</h1>
+                <p class="dream-subtitle mb-4">(★‿★). (╹ڡ╹ ). ✍️(◔◡◔). 🤍</p>
+
+                <div class="dream-icons-bar mb-5">
+                    <span>🌙</span> <span>✦</span> <span>🦋</span> <span>♡</span> <span>🎀</span> <span>☁️</span> <span>🌷</span> <span>⭐</span>
+                </div>
+
+                <!-- CUADRÍCULA DE FOTOS CON TUS NUEVAS IMÁGENES -->
+                <div class="dream-bento-grid">
+                    <div class="dream-bento-item">
+                        <img src="sp1.jpg" alt="Subespacio">
+                        <div class="dream-overlay"><span> ✨</span></div>
+                    </div>
+                    <div class="dream-bento-item">
+                        <img src="sp.jpg" alt="Pelea Krok">
+                        <div class="dream-overlay"><span> 💥</span></div>
+                    </div>
+                    <div class="dream-bento-item">
+                        <img src="uwuu.jpg" alt="Elenco completo">
+                        <div class="dream-overlay"><span> 🌙</span></div>
+                    </div>
+                    <div class="dream-bento-item">
+                        <img src="ola.jpg" alt="Todos juntos">
+                        <div class="dream-overlay"><span> ♡</span></div>
+                    </div>
+                    <div class="dream-bento-item">
+                        <img src="lll.jpg" alt="Exs Malvados Pixel">
+                        <div class="dream-overlay"><span> 🎮</span></div>
+                    </div>
+                </div>
+
+                <div class="mt-5 pt-3 border-top border-secondary">
+                    <p class="dream-footer-quote">Algunas imagenes de la serie ✨</p>
+                </div>
+
+            </section>
+        </main>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer-custom text-white mt-5">
+        <div class="container py-4">
+            <ul class="nav justify-content-center pb-3 mb-3 border-bottom border-light">
+                <li class="nav-item"><a href="index.html" class="nav-link px-2 text-white">Inicio</a></li>
+                <li class="nav-item"><a href="galeria.html" class="nav-link px-2 text-white">Galería</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Contacto</a></li>
+            </ul>
+            <p class="text-center text-white mb-0 font-weight-bold" style="font-size: 1.1rem; text-shadow: 1px 1px 2px #000;">&copy; 2026 Fan Page</p>
+        </div>
+    </footer>
+
+</body>
+</html>
