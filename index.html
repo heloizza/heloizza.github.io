@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fandom wiki</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
+    <!-- Vinculamos la hoja de estilos externa -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- INPUTS PARA TINTE DE RAMONA (CSS PURO) -->
+    <input type="radio" name="hair-color" id="hair-pink" checked>
+    <input type="radio" name="hair-color" id="hair-blue">
+    <input type="radio" name="hair-color" id="hair-green">
+
+    <!-- INPUTS PARA FILTRADO DE CATEGORÍAS (CSS PURO) -->
+    <input type="radio" name="category" id="cat-all" checked>
+    <input type="radio" name="category" id="cat-main">
+    <input type="radio" name="category" id="cat-band">
+    <input type="radio" name="category" id="cat-exes">
+
+    <!-- HEADER CON LOGO EN LA ESQUINA SUPERIOR IZQUIERDA -->
+    <header>
+        <a href="#" class="logo-container">
+            <div class="logo-icon"></div>
+            <span class="logo-text">Fandom wiki</span>
+        </a>
+
+        <!-- SELECTOR DE TINTE -->
+        <div class="ramona-controls">
+            <span>Tinte de Ramona:</span>
+            <label for="hair-pink" class="color-btn btn-pink" title="Rosa"></label>
+            <label for="hair-blue" class="color-btn btn-blue" title="Azul"></label>
+            <label for="hair-green" class="color-btn btn-green" title="Verde"></label>
+        </div>
+    </header>
+
+    <!-- HERO BANNER CON TEXTO AMARILLO -->
+    <section class="hero">
+        <h1>personajes de scott pilgrim</h1>
+        <p>Base de datos interactiva - Subspace Highway Edition</p>
+    </section>
+
+    <!-- BOTONES DE FILTRADO -->
+    <div class="filter-nav">
+        <label for="cat-all" class="filter-btn">TODOS</label>
+        <label for="cat-main" class="filter-btn">PRINCIPALES</label>
+        <label for="cat-band" class="filter-btn">SEX BOB-OMB</label>
+        <label for="cat-exes" class="filter-btn">EXS MALVADOS</label>
+    </div>
+
+    <!-- TARJETAS DE PERSONAJES -->
+    <main class="grid">
+
+        <!-- Scott Pilgrim -->
+        <article class="card cat-main cat-band">
+            <div class="card-img-container">
+                <img src="https://images.fineartamerica.com/images/featuredImages/medium/1/scott-pilgrim-vs-the-world-scott-pilgrim-transparent-images.png" alt="Scott Pilgrim">
+            </div>
+            <div class="card-body">
+                <h2>Scott Pilgrim</h2>
+                <div class="role">Bajista / Protagonista</div>
+                <p class="bio">Tiene 23 años, toca el bajo en Sex Bob-Omb y debe derrotar a los 7 ex malvados de Ramona para poder salir con ella.</p>
+                <a href="https://scottpilgrim.fandom.com/wiki/Scott_Pilgrim_(character)" target="_blank" rel="noopener" class="wiki-link">VER EN FANDOM WIKI</a>
+            </div>
+        </article>
+
+        <!-- Ramona Flowers -->
+        <article class="card cat-main">
+            <div class="card-img-container">
+                <img src="https://images.fineartamerica.com/images/featuredImages/medium/1/ramona-flowers-transparent-images.png" alt="Ramona Flowers">
+            </div>
+            <div class="card-body">
+                <h2>Ramona Flowers</h2>
+                <div class="role">Repartidora Ninja / Interés Amoroso</div>
+                <p class="bio">Misteriosa chica estadounidense que trabaja para Amazon. Usa las vías del subespacio a través de la cabeza de Scott.</p>
+                <a href="https://scottpilgrim.fandom.com/wiki/Ramona_Flowers" target="_blank" rel="noopener" class="wiki-link">VER EN FANDOM WIKI</a>
+            </div>
+        </article>
+
+        <!-- Stephen Stills -->
+        <article class="card cat-band">
+            <div class="card-img-container">
+                <img src="https://vignette.wikia.nocookie.net/scottpilgrim/images/1/1b/StephenStillsComic.PNG/revision/latest?cb=20101111224213" alt="Stephen Stills">
+            </div>
+            <div class="card-body">
+                <h2>Stephen Stills</h2>
+                <div class="role">Guitarrista / "El Talento"</div>
+                <p class="bio">Líder y vocalista principal de Sex Bob-Omb. Obsesionado con la perfección musical de la banda.</p>
+                <a href="https://scottpilgrim.fandom.com/wiki/Stephen_Stills" target="_blank" rel="noopener" class="wiki-link">VER EN FANDOM WIKI</a>
+            </div>
+        </article>
+
+        <!-- Kim Pine -->
+        <article class="card cat-band">
+            <div class="card-img-container">
+                <img src="https://vignette.wikia.nocookie.net/scottpilgrim/images/d/dc/Kim_pine.png/revision/latest?cb=20130327202420" alt="Kim Pine">
+            </div>
+            <div class="card-body">
+                <h2>Kim Pine</h2>
+                <div class="role">Baterista / Ex-novia</div>
+                <p class="bio">Baterista sarcástica de la banda y primera novia de Scott en la secundaria. Trabaja en un videoclub.</p>
+                <a href="https://scottpilgrim.fandom.com/wiki/Kim_Pine" target="_blank" rel="noopener" class="wiki-link">VER EN FANDOM WIKI</a>
+            </div>
+        </article>
+
+        <!-- Matthew Patel -->
+        <article class="card cat-exes">
+            <div class="card-img-container">
+                <img src="https://vignette.wikia.nocookie.net/scottpilgrim/images/a/a9/Matthew_Patel.png/revision/latest?cb=20130327211145" alt="Matthew Patel">
+            </div>
+            <div class="card-body">
+                <h2>Matthew Patel</h2>
+                <div class="role">Primer Ex Malvado</div>
+                <p class="bio">Tiene poderes místicos y puede invocar chicas demonio. Fue el primer novio de Ramona en la escuela secundaria.</p>
+                <a href="https://scottpilgrim.fandom.com/wiki/Matthew_Patel" target="_blank" rel="noopener" class="wiki-link">VER EN FANDOM WIKI</a>
+            </div>
+        </article>
+
+        <!-- Lucas Lee -->
+        <article class="card cat-exes">
+            <div class="card-img-container">
+                <img src="https://vignette.wikia.nocookie.net/scottpilgrim/images/d/df/Lucas_Lee_Comic.png/revision/latest?cb=20130327203112" alt="Lucas Lee">
+            </div>
+            <div class="card-body">
+                <h2>Lucas Lee</h2>
+                <div class="role">Segundo Ex Malvado</div>
+                <p class="bio">Famoso actor de películas de acción y skateboarder profesional. Muy fuerte pero confiado en exceso.</p>
+                <a href="https://scottpilgrim.fandom.com/wiki/Lucas_Lee" target="_blank" rel="noopener" class="wiki-link">VER EN FANDOM WIKI</a>
+            </div>
+        </article>
+
+        <!-- Gideon Graves -->
+        <article class="card cat-exes">
+            <div class="card-img-container">
+                <img src="https://vignette.wikia.nocookie.net/scottpilgrim/images/2/2a/Gideon.PNG/revision/latest?cb=20101103001844" alt="Gideon Graves">
+            </div>
+            <div class="card-body">
+                <h2>Gideon Graves</h2>
+                <div class="role">Séptimo Ex / Líder de la Liga</div>
+                <p class="bio">Empresario musical y el cerebro detrás de la Liga de los Exs Malvados. El enemigo final de Scott.</p>
+                <a href="https://scottpilgrim.fandom.com/wiki/Gideon_Graves" target="_blank" rel="noopener" class="wiki-link">VER EN FANDOM WIKI</a>
+            </div>
+        </article>
+
+    </main>
+
+    <footer>
+        <p>Fandom wiki &copy; Contacto:nicole@gmail.com -  / Mi primera página</p>
+    </footer>
+
+</body>
+</html>
