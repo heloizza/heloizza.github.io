@@ -460,3 +460,28 @@ header {
     border-color: var(--accent-color);
     box-shadow: 0px 6px 15px rgba(255, 77, 166, 0.6);
 }
+
+/*estilos para la sección "SOBRE MÍ"  */
+
+/*tarjeta de perfil  centrado */
+.container.my-5 .card {
+    background: rgba(15, 5, 25, 0.85);
+    border: 2px solid var(--accent-color);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8), inset 0 0 15px rgba(212, 115, 255, 0.15);
+    border-radius: 12px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+/* Efecto hover tarjeta */
+.container.my-5 .card:hover {
+    box-shadow: 0 0 25px var(--accent-color), inset 0 0 20px var(--accent-color);
+    transition: all 0.3s ease;
+}
+
+/* Estilo para los textos internos de la biografía de perfil */
+.container.my-5 .card-body p.bio {
+    color: var(--text-light);
+    font-family: 'VT323', monospace;
+    font-size: 1.6rem;
+}
