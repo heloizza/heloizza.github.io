@@ -10,18 +10,18 @@
 </head>
 <body>
 
-    <!-- INPUTS PARA TINTE  -->
+    <!--  tinte -->
     <input type="radio" name="hair-color" id="hair-pink" checked>
     <input type="radio" name="hair-color" id="hair-blue">
     <input type="radio" name="hair-color" id="hair-green">
 
-    <!-- INPUTS PARA FILTRADO -->
+    <!-- para que funcionen los filtros  -->
     <input type="radio" name="category" id="cat-all" checked>
     <input type="radio" name="category" id="cat-main">
     <input type="radio" name="category" id="cat-band">
     <input type="radio" name="category" id="cat-exes">
 
-    <!-- NAVBAR -->
+    <!-- mi barra de navegacion principal -->
     <nav class="navbar navbar-expand mb-4 py-3 navbar-custom">
         <div class="container justify-content-center">
             <ul class="navbar-nav gap-4">
@@ -38,24 +38,23 @@
         </div>
     </nav>
 
-    <!-- MARQUEE -->
+    <!-- texto que se mueve (marquee) -->
     <div class="container-fluid px-4">
         <div class="marquee-box">
             <marquee scrollamount="10">★ Bienvenido ★ Mi primera página web ★ Conoce a los personajes de la serie (>_<)9 ★</marquee>
         </div>
     </div>
 
-    <!-- CONTENEDOR PRINCIPAL -->
+    <!-- contenedor de todo lo demas -->
     <div class="container-fluid px-4">
         
-        <!-- HEADER INTERNO -->
         <header class="alt-box">
             <a href="index.html" class="logo-container">
                 <img src="img/logo_2.jpg" alt="Sex Bob-Omb Logo" class="logo-animated">
                 <span class="logo-text">Fan Page!</span>
             </a>
 
-            <!-- SELECTOR DE TINTE -->
+            <!-- botones de los colores -->
             <div class="ramona-controls">
                 <span>Tinte:</span>
                 <label for="hair-pink" class="color-btn btn-pink" title="Rosa"></label>
@@ -64,13 +63,12 @@
             </div>
         </header>
 
-        <!-- HERO BANNER -->
         <section class="hero alt-box">
             <h1>Personajes de Scott Pilgrim :3</h1>
             <p>En esta página podrás conocer a algunos personajes de la serie Scott Pilgrim ~ (>_<)9</p>
         </section>
 
-        <!-- BOTONES DE FILTRADO -->
+        <!-- barrita para filtrar las cartas -->
         <div class="filter-nav">
             <label for="cat-all" class="filter-btn">TODOS</label>
             <label for="cat-main" class="filter-btn">PRINCIPALES</label>
@@ -78,7 +76,6 @@
             <label for="cat-exes" class="filter-btn">EXS MALVADOS</label>
         </div>
 
-        <!-- TARJETAS DE PERSONAJES -->
         <main class="grid">
             <article class="card cat-main cat-band">
                 <div class="card-title-bar">profile.exe</div>
@@ -158,6 +155,72 @@
             </article>
         </main>
     </div>
+
+    <!-- mi tablita de stats  :3 -->
+        <section class="container my-5">
+            <div class="alt-box p-4 p-md-5" style="border: 2px solid var(--accent-color); box-shadow: 0 0 20px rgba(0,0,0,0.8), inset 0 0 15px var(--accent-color);">
+                
+                <h2 class="text-center mb-4" style="font-family: 'Press Start 2P', cursive; font-size: 1.2rem; color: #fff; text-shadow: 3px 3px 0 #000, 0 0 12px var(--accent-color);">
+                    ★ STATS DE COMBATE ★
+                </h2>
+                
+                <!-- caja de tabla -->
+                <div class="table-responsive" style="border-radius: 12px; overflow: hidden; border: 1px solid var(--alt-border); background: rgba(10, 2, 20, 0.6);">
+                    
+                    <table class="table table-hover table-borderless text-center align-middle mb-0" style="--bs-table-bg: transparent; --bs-table-color: var(--text-light);">
+                        
+                        <!-- titulos de arriba -->
+                        <thead style="background: linear-gradient(90deg, rgba(212, 115, 255, 0.3) 0%, transparent 100%); border-bottom: 2px solid var(--accent-color);">
+                            <tr style="font-family: 'Press Start 2P', cursive; font-size: 0.75rem; color: #fff; text-shadow: 2px 2px 0px #000;">
+                                <th class="py-3 px-4">PERSONAJE</th>
+                                <th class="py-3 px-4">ARMA / SKILL</th>
+                                <th class="py-3 px-4">NIVEL</th>
+                            </tr>
+                        </thead>
+                        
+                        <!-- datos de todo el elenco -->
+                        <tbody style="font-family: 'VT323', monospace; font-size: 1.5rem; letter-spacing: 1px;">
+                            <tr style="border-bottom: 1px dashed var(--alt-border);">
+                                <td class="py-3">Scott Pilgrim</td>
+                                <td class="py-3">Bajo eléctrico (+10 Carisma)</td>
+                                <td class="py-3" style="color: var(--accent-color); text-shadow: 0 0 8px var(--accent-color);">LVL 23</td>
+                            </tr>
+                            <tr style="border-bottom: 1px dashed var(--alt-border);">
+                                <td class="py-3">Ramona Flowers</td>
+                                <td class="py-3">Bolso Subespacial</td>
+                                <td class="py-3" style="color: var(--accent-color); text-shadow: 0 0 8px var(--accent-color);">LVL 24</td>
+                            </tr>
+                            <tr style="border-bottom: 1px dashed var(--alt-border);">
+                                <td class="py-3">Stephen Stills</td>
+                                <td class="py-3">Guitarra acústica </td>
+                                <td class="py-3" style="color: var(--accent-color); text-shadow: 0 0 8px var(--accent-color);">LVL 22</td>
+                            </tr>
+                            <tr style="border-bottom: 1px dashed var(--alt-border);">
+                                <td class="py-3">Kim Pine</td>
+                                <td class="py-3">Batería </td>
+                                <td class="py-3" style="color: var(--accent-color); text-shadow: 0 0 8px var(--accent-color);">LVL 23</td>
+                            </tr>
+                            <tr style="border-bottom: 1px dashed var(--alt-border);">
+                                <td class="py-3">Matthew Patel</td>
+                                <td class="py-3">Poderes místicos</td>
+                                <td class="py-3" style="color: var(--accent-color); text-shadow: 0 0 8px var(--accent-color);">LVL 10</td>
+                            </tr>
+                            <tr style="border-bottom: 1px dashed var(--alt-border);">
+                                <td class="py-3">Lucas Lee</td>
+                                <td class="py-3"> Skateboard </td>
+                                <td class="py-3" style="color: var(--accent-color); text-shadow: 0 0 8px var(--accent-color);">LVL 40</td>
+                            </tr>
+                            <tr style="border-bottom: 1px dashed var(--alt-border);">
+                                <td class="py-3">Gideon Graves</td>
+                                <td class="py-3">Control Mental </td>
+                                <td class="py-3" style="color: #ff4da6; text-shadow: 0 0 10px #ff4da6; font-weight: bold;">LVL 99</td>
+                            </tr>
+                    
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
 
     <!-- FOOTER -->
     <footer class="footer-custom text-white mt-5">
